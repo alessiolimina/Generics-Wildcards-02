@@ -22,10 +22,10 @@ public class Start {
 
         System.out.println("---------------Comparing elements---------------------");
 
-        System.out.print("Is the first element equal to the second element? ");
-        GenericsClass.isEqual(firstElement, secondElement);
-        System.out.print("Is the third element equal to the fourth element? ");
-        GenericsClass.isEqual(thirdElement, fourthElement);
+        System.out.println("Is the first element equal to the second element? ");
+        System.out.println(GenericsClass.isEqual(firstElement, secondElement));
+        System.out.println("Is the third element equal to the fourth element? ");
+        System.out.println(GenericsClass.isEqual(thirdElement, fourthElement));
 
         System.out.println("-------------------------------------------------------");
 
